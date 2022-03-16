@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "angular-material-admin"
+    "default": "mj-it-services"
+  },
+  "targets": {
+    "mj-it-services": {
+      "hosting": {
+        "angular-material-admin": [
+          "mj-it-services"
+        ]
+      }
+    }
   }
 }
